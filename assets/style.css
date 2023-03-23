@@ -21,6 +21,14 @@
     display: block;
 }
 
+.image {
+    width: 35vw;
+    height: 200px;
+    margin: 20px auto;
+    padding: 40px 30px 60px;
+    background:url(/assets/image/cat_1.jpg) 0 0/cover;
+}
+
 img {
     width: auto;
     height: 250px;
