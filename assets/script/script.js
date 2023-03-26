@@ -4,12 +4,12 @@ const img = document.querySelector('#image');
 
 const changeNext = () => {
     const nextImg = '/assets/image/cat_2.jpg';
-    return img.src == nextImg;
+    return img.src = nextImg;
 };
 
 const changePrevious = () => {
     const prevImg = '/assets/image/cat_6.jpg';
-    return img.src == prevImg;
+    return img.src = prevImg;
 };
 
 
